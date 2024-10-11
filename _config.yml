@@ -29,7 +29,7 @@ url: "https://viiniu.github.io" # the base hostname & protocol for your site, e.
 github_username:  viiniu
 
 # Build settings
-theme: jekyll-theme-so-simple
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
 plugins:
   - jekyll-feed
 
