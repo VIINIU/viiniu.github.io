@@ -2,6 +2,9 @@
 layout: post
 title:  "Welcome to 🏠VINI's BLOG🏠"
 date:   2024-10-13 02:22:18 +0900
+image: 
+  path: /images/blog_logo_1600x600.jpg
+  thumbnail: /images/blog_logo_400x200.jpg
 categories: MISC
 author: VINI
 tag: Personal
