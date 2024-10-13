@@ -42,7 +42,7 @@ paginate_path: /page:num/
 logo: /images/blog_logo.jpg
 
 disqus:
-  shortname: viiniu 
+  shortname: https-viiniu-github-io
 
 google_fonts:
   - name: "Source Sans Pro"
