@@ -110,11 +110,11 @@ CECOM의 '24-2 운영진 첫회의에서 CECOM의 앞으로의 진행 방향에 
   <img src="/images/AM/AM17.jpg"  width="49%">
 </p>
 
-- GPIO
+- **GPIO**
     - General Purpose Input/Output
     - **pinMode(**디지털핀넘버**);** 로 선언 후 digital(analog)Write(Read)로 제어
 
-- Analog 신호 쓰기/읽기
+- **Analog 신호 쓰기/읽기**
     - ADC
         - 0~3.3V까지의 인풋을 256단계로 쪼개어(2^8) 측정함
         - 왜 256단계?
@@ -123,7 +123,7 @@ CECOM의 '24-2 운영진 첫회의에서 CECOM의 앞으로의 진행 방향에 
         - Purse Width Moduration
         - Purse의 켜진 부분의 너비(Duty Ratio)를 조정하여 밝기를 아날로그 신호로 조정한 것과 유사한 효과를 냄
 
-- 회로
+- **회로**
     - 빵판(브레드보드)
         - 빵판의 각 끝부분의 두 줄은 세로로 연결되어있음
         - 가운데 줄은 각각 a~e까지, f~j까지 가로로 연결되어있으며,
@@ -153,7 +153,7 @@ CECOM의 '24-2 운영진 첫회의에서 CECOM의 앞으로의 진행 방향에 
     - 저항
         - 220옴 쓰면 됨
 
-- TOUCHpin
+- **TOUCHpin**
     - touchRead(핀넘버); 를 통해 이용
     - 256단계의 아날로그 시그널로 읽혀 esp32에서 정전용량 모니터링 가능
     - 원리
