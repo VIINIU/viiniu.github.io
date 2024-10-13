@@ -55,7 +55,7 @@ footer_links:
   - title: Naver Blog
     url: https://blog.naver.com/vini_u
     icon: fas fa-rss-square
-copyright: "^_^"
+copyright: "Powered by jekyll on Github Pages  &#124;  Template modified from <a href=\"https://github.com/mmistakes/so-simple-theme\">so-simple</a>  &#124;  © 2024 Yubin Seo all right reserved"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
