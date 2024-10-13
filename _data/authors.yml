@@ -8,3 +8,6 @@ VINI:
     - title: Instagram
       url: https://www.instagram.com/vini___u/
       icon: fab fa-instagram
+    - title: GitHub
+      url: https://github.com/viiniu
+      icon: fab fa-github-square

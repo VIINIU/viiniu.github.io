@@ -39,10 +39,23 @@ plugins:
 paginate: 10  # amount of posts to show per page
 paginate_path: /page:num/ 
 
+google_fonts:
+  - name: "Source Sans Pro"
+    weights: "400,700"
+  - name: "Gowun Batang"
+    weights: "400,700"
 
-
-
-
+footer_links:
+  - title: Instagram
+    url: https://instagram.com/vini___u
+    icon: fab fa-instagram
+  - title: GitHub
+    url: https://github.com/viiniu
+    icon: fab fa-github-square
+  - title: Naver Blog
+    url: https://blog.naver.com/vini_u
+    icon: fas fa-rss-square
+copyright: "^_^"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
