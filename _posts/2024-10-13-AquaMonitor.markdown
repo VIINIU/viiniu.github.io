@@ -29,7 +29,7 @@ tags: CECOM CAU
   <img src="/images/aquamonitor/1.jpg"  width="49%">
   <img src="/images/aquamonitor/2.jpg"  width="49%">
 </p>
-<p>
+<p> 
   <img src="/images/aquamonitor/3.jpg"  width="49%">
   <img src="/images/aquamonitor/4.jpg"  width="49%">
 </p>
