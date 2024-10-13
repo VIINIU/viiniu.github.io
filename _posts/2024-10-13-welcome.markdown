@@ -2,7 +2,10 @@
 layout: post
 title:  "Welcome to 🏠VINI's BLOG🏠"
 date:   2024-10-13 02:22:18 +0900
-categories: Misc
+categories: MISC
 author: VINI
-
+tag: Personal
 --- 
+
+### VINI의 BLOG에 오신 걸 환영합니다!
+---

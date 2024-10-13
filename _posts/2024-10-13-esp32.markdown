@@ -2,12 +2,12 @@
 layout: post
 title:  "[CECOM] Arduino Mentoring ( 1 ) w.ESP32"
 date: 2024-10-13 16:54:00 +0900
-categories: ESP32 CECOM
+categories: ESP32 ARDUINO
 author: VINI
+tags: CECOM CAU
 --- 
 
 ### 아두이노 멘토링을 시작하게 된 계기
----
 CECOM의 '24-2 운영진 첫회의에서 CECOM의 앞으로의 진행 방향에 대하여 아주 긴 시간 논의하였다.
 컴퓨터 하드웨어 동아리이니 만큼(컴퓨터, 하드웨어 아니고 컴퓨터 하드웨어) 하드웨어 프로젝트 중심으로 되돌아가는 것으로 의견을 취합하여
 부원들이 부담감없이 하드웨어 프로젝트를 시작할 수 있도록 다양한 방식의 지원을 하기로 결론지었다.
