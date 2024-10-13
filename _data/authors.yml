@@ -1,15 +1,10 @@
 # Sample Authors
 # Remove file or replace with your own
 
-Billy Rick:
+VINI:
   name: 서유빈 (Yubin Seo)
-  picture: /images/VINIU.jpg
+  picture: /images/viniu_pic.jpg
   links:
     - title: Instagram
       url: https://www.instagram.com/vini___u/
-      icon: fab fa-square-instagram
-
-Cornelius Fiddlebone:
-  name: Cornelius Fiddlebone
-  picture: /images/bio-photo.jpg
-  twitter: corneliusfiddlebone
+      icon: fab fa-instagram

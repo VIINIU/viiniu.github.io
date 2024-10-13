@@ -3,4 +3,6 @@ layout: post
 title:  "Welcome to 유빈이네 블로그🏠"
 date:   2024-10-13 02:22:18 +0900
 categories: jekyll update
+author: VINI
+
 ---
