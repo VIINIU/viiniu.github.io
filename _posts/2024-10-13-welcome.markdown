@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to 유빈이네 블로그🏠"
+title:  "Welcome to 🏠VINI's BLOG🏠"
 date:   2024-10-13 02:22:18 +0900
 categories: Misc
 author: VINI

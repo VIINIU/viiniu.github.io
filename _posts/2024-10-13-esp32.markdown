@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "ESP32 멘토링"
-date:   2024-10-13 16:54:00 +0900
-categories: ESP32
+title:  "[CECOM] ESP32 Mentoring"
+date: 2024-10-13 16:54:00 +0900
+categories: ESP32 CECOM
 author: VINI
----
+
+--- 
