@@ -25,15 +25,15 @@ tags: CECOM CAU
 사용자의 연령, 성별, 수유여부에 따라 맞춤 수분 섭취 권장량이 업데이트 됨.
 
 
-<p>
+<div>
   <img src="/images/aquamonitor/1.jpg"  width="49%">
   <img src="/images/aquamonitor/2.jpg"  width="49%">
-</p>
-<p> 
+</div>
+<div> 
   <img src="/images/aquamonitor/3.jpg"  width="49%">
   <img src="/images/aquamonitor/4.jpg"  width="49%">
-</p>
-<p>
+</div>
+<div>
   <img src="/images/aquamonitor/5.jpg"  width="49%">
   <img src="/images/aquamonitor/6.jpg"  width="49%">
-</p>
+</div>
