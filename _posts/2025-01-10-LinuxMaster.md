@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Linux] Linux Master 2"
+title:  "[Linux] Linux Master"
 date:   2025-04-28 12:17:57 +0900
 image: 
   path: /images/blog_logo_1600x600.jpg
