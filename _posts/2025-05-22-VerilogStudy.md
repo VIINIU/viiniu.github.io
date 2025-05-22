@@ -15,7 +15,7 @@ tag: Verilog
 
 ---
 
-<img src=image.png" width="49%">
+<img src="images/Verilog/image.png" width="49%">
 
 - HDL description : 니가 아는 그 코드
 - library : 각 게이트에 대한 라이브러리
