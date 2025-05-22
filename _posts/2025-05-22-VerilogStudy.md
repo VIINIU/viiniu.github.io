@@ -5,7 +5,7 @@ date:   2025-05-22 10:00:00 +0900
 image: 
   path: /images/blog_logo_1600x600.jpg
   thumbnail: /images/blog_logo_1600x600.jpg
-categories: LINUX Certification
+categories: Verilog
 author: VINI
 tag: Verilog
 --- 
