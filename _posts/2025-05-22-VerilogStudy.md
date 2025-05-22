@@ -11,12 +11,21 @@ tag: Verilog
 --- 
 
 
+## 시작하기에 앞서
+
+---
+- 강의
+    [반도체 설계 교육 센터](https://www.idec.or.kr/main/) 에 올라와있는 송재훈 강사님의 `Verilog HDL 언어 초급 및 설계 가이드라인` 강의를 듣고 작성한 필기노트 입니다.
+    자세하고 친절하게 Verilog에 관한 기본적인 배경 지식을 알려주시기 때문에 Verilog를 처음 시작하는 모든 전자·전기 분야의 학생들에게 도움이 될 것이라고 생각합니다!
+
+
 ## Verilog HDL
 
 ---
+ㅤ
+    <img src="/images/Verilog/image.png" width="49%">   
+    
 - HDL description : 내가 작성한 코드
-    <img src="/images/Verilog/image.png" width="49%">
-
 - library : 각 게이트에 대한 라이브러리
 - Constrain : 해당 모듈이 silicon에서 차지할 Area, timing, power, testability
 
