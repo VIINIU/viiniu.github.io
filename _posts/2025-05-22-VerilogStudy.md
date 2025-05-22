@@ -15,7 +15,7 @@ tag: Verilog
 
 ---
 
-<img src="images\Verilog\image.png" width="49%">
+<img src="/images/Verilog/image.png" width="49%">
 
 - HDL description : 니가 아는 그 코드
 - library : 각 게이트에 대한 라이브러리
@@ -30,7 +30,7 @@ tag: Verilog
     - 각 Module끼리는 Signal로 연결 됨
 - **Structure of Module**
     
-    <img src="images\Verilog\image 1.png" width="49%">
+    <img src="/images/Verilog/image 1.png" width="49%">
     
 - **Name of a Module**
     - Start with letter or underscre
@@ -39,7 +39,7 @@ tag: Verilog
 - Description : 있으면 좋음 (개발이나 하고 봐라)
 - Module interface
     
-    <img src="images\Verilog\image 2.png" width="49%">
+    <img src="/images/Verilog/image 2.png" width="49%">
     
     - 두꺼운 화살표 = multibit, 얇은거 = single (당연)
     - out인지 in인지 direction 지정
@@ -47,7 +47,7 @@ tag: Verilog
     - signal type(`wire` or `reg`)도 지정해줘야 하는데 사실 위에 모듈 명 이후의 괄호에서 모두 해결해도 괜찮음
     - 다양한 port sig type 지정 방법
         
-        <img src="images\Verilog\image 3.png" width="49%">
+        <img src="/images/Verilog/image 3.png" width="49%">
         
 
 - **Different Type of Module BODY**
@@ -56,18 +56,18 @@ tag: Verilog
         - Structural Style (제일 LOW)
             - physical circuit을 그냥 스트레잇으로 말로 표현
                 
-                <img src="images\Verilog\image 4.png" width="49%">
+                <img src="/images/Verilog/image 4.png" width="49%">
                 
         - Dataflow Style
             - input signal의 transformtation으로 output을 묘사
                 
-                <img src="images\Verilog\image 5.png" width="49%">
+                <img src="/images/Verilog/image 5.png" width="49%">
                 
         - Behavioral Style
             - 예상되는 행동을 묘사
             - 제일 natural language에 가까워 추상화 정도가 가장 높음
                 
-                <img src="images\Verilog\image 6.png" width="49%">
+                <img src="/images/Verilog/image 6.png" width="49%">
                 
 
 ## Signals
@@ -91,7 +91,7 @@ tag: Verilog
         - 새거 할당하기 전까지는 유지임
 - NET signal type
     
-    <img src="images\Verilog\image 7.png" width="49%">
+    <img src="/images/Verilog/image 7.png" width="49%">
     
     - wire : single driver nets
     - tri : High impedance가 가능함. tri는 nets with multiple sources
@@ -130,7 +130,7 @@ tag: Verilog
 각각의 object = instance
 - C언어에서 함수처럼 한 모듈에서 다른 모듈을 호출 가능
     
-    <img src="images\Verilog\image 8.png" width="49%">
+    <img src="/images/Verilog/image 8.png" width="49%">
     
 - 호출(invoke)시 verilog가 알아서 instance를 만듦
 이름은 직접 정해줘야 함 (왜냠 여러개 불러 올 수도 있자너~)
@@ -139,7 +139,7 @@ tag: Verilog
     **module instantiation flexibility**를 위해서 outside와 포트 연결 시, Rule이 필요 
     모든 포트는 internal part 와 external part가 존재
     
-    <img src="images\Verilog\image 9.png" width="49%">
+    <img src="/images/Verilog/image 9.png" width="49%">
     
     - **input port**
         
@@ -160,7 +160,7 @@ tag: Verilog
     - Connecting Ports by Name
         - 로컬 포트명을 인스턴스 포트명 옆에 괄호를 열고 표시
         
-        <img src="images\Verilog\image 10.png" width="49%">
+        <img src="/images/Verilog/image 10.png" width="49%">
         
     - Unconnected Ports
         - 안 쓰고 싶은 포트가 있는 경우 인스턴스 불러올 때 포트를 안 쓰면 됨!!
@@ -220,9 +220,9 @@ Verilog의 숫자 표현 방식 2 = 비트수, b = binary, 01 = binary 숫자
         - `==` ,`!=`  값을 비교 → 따라서 X나 Z가 있는 경우 X
     - Bitwise Operators
         
-        <img src="images\Verilog\image 11.png" width="49%">
-        <img src="images\Verilog\image 12.png" width="49%">
-        <img src="images\Verilog\image 13.png" width="49%">
+        <img src="/images/Verilog/image 11.png" width="49%">
+        <img src="/images/Verilog/image 12.png" width="49%">
+        <img src="/images/Verilog/image 13.png" width="49%">
         
     - Shift Operators
         - `<<` , `>>`
@@ -237,7 +237,7 @@ Verilog의 숫자 표현 방식 2 = 비트수, b = binary, 01 = binary 숫자
 - Conditional Assignment
     - 논리합성 가능
         
-        <img src="images\Verilog\image 14.png" width="49%">
+        <img src="/images/Verilog/image 14.png" width="49%">
         
 - Delay
     - #t 와 같은 방식으로 사용
