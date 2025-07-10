@@ -2,6 +2,9 @@
 layout: post
 title:  "[CECOM] Arduino Mentoring ( 2 ) w.ESP32"
 date: 2024-10-15 15:00:00 +0900
+image: 
+  path: /images/blog_logo_1600x600.jpg
+  thumbnail: /images/blog_logo_1600x600.jpg
 categories: ESP32 ARDUINO
 author: VINI
 tags: CECOM CAU
