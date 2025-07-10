@@ -1,6 +1,9 @@
 ---
 layout: post
 title:  "[CECOM] Arduino Mentoring ( 1 ) w.ESP32"
+image: 
+  path: /images/blog_logo_1600x600.jpg
+  thumbnail: /images/blog_logo_1600x600.jpg
 date: 2024-10-13 16:54:00 +0900
 categories: ESP32 ARDUINO
 author: VINI

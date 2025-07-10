@@ -2,6 +2,9 @@
 layout: post
 title:  "AquaMonitor"
 date: 2024-10-13 16:54:00 +0900
+image: 
+  path: /images/blog_logo_1600x600.jpg
+  thumbnail: /images/blog_logo_1600x600.jpg
 categories: ESP32 ARDUINO PCB
 author: VINI
 tags: CECOM CAU
