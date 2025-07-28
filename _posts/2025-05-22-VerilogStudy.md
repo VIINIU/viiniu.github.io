@@ -66,7 +66,7 @@ tag: Verilog
     - comment : `//(한줄)` , `/* (블럭) */`
     - Module interface
         
-        ![image.png](/images/verilog/image 1.png)
+        ![image.png](/images/verilog/image%201.png)
         
         - 두꺼운 화살표 = multibit, 얇은거 = single (당연)
         - out인지 in인지 direction 지정
@@ -80,18 +80,18 @@ tag: Verilog
         - Structural Style (제일 LOW)
             - physical circuit을 그냥 스트레잇으로 말로 표현
                 
-                ![image.png](/images/verilog/image 2.png)
+                ![image.png](/images/verilog/image%202.png)
                 
         - Dataflow Style
             - input signal의 transformtation으로 output을 묘사
                 
-                ![image.png](/images/verilog/image 3.png)
+                ![image.png](/images/verilog/image%203.png)
                 
         - Behavioral Style
             - 예상되는 행동을 묘사
             - 제일 natural language에 가까워 추상화 정도가 가장 높음
                 
-                ![image.png](/images/verilog/image 4.png)
+                ![image.png](/images/verilog/image%204.png)
                 
 
 - Signals
@@ -106,7 +106,7 @@ tag: Verilog
         
         - NET signal type
             
-            ![image.png](/images/verilog/image 5.png)
+            ![image.png](/images/verilog/image%205.png)
             
             - wire : single driver nets
             - tri : High impedance가 가능함. tri는 nets with multiple sources
@@ -146,7 +146,7 @@ tag: Verilog
         **module instantiation flexibility**를 위해서 outside와 포트 연결 시, Rule이 필요 
         모든 포트는 internal part 와 external part가 존재
         
-        ![image.png](/images/verilog/image 6.png)
+        ![image.png](/images/verilog/image%206.png)
         
         - **input port**
             
@@ -222,11 +222,11 @@ tag: Verilog
         - `==` ,`!=`  값을 비교 → 따라서 X나 Z가 있는 경우 X
     - Bitwise Operators
         
-        ![image.png](/images/verilog/image 7.png)
+        ![image.png](/images/verilog/image%207.png)
         
-        ![image.png](/images/verilog/image 8.png)
+        ![image.png](/images/verilog/image%208.png)
         
-        ![image.png](/images/verilog/image 9.png)
+        ![image.png](/images/verilog/image%209.png)
         
     - Shift Operators
         - `<<` , `>>`
@@ -241,7 +241,7 @@ tag: Verilog
 - Conditional Assignment
     - 논리합성 가능
         
-        ![image.png](/images/verilog/image 10.png)
+        ![image.png](/images/verilog/image%2010.png)
         
 - **Delay**
     - #t 와 같은 방식으로 사용
@@ -252,12 +252,12 @@ tag: Verilog
 
 - Variables (registor)
     
-    ![image.png](/images/verilog/image 11.png)
+    ![image.png](/images/verilog/image%2011.png)
     
     - signed와 range는 reg타입의 variable에만 사용가능
     - `variable_type`
         
-        ![image.png](/images/verilog/image 12.png)
+        ![image.png](/images/verilog/image%2012.png)
         
     - `array`
         - [first_address : last_address][first__address : last_address]와 같은 형식으로 표시
@@ -293,9 +293,9 @@ tag: Verilog
     endmodule
     ```
     
-    ![image.png](/images/verilog/image 13.png)
+    ![image.png](/images/verilog/image%2013.png)
     
-    ![image.png](/images/verilog/image 14.png)
+    ![image.png](/images/verilog/image%2014.png)
     
 - **Full adder**
     
@@ -314,9 +314,9 @@ tag: Verilog
     endmodule
     ```
     
-    ![image.png](/images/verilog/image 15.png)
+    ![image.png](/images/verilog/image%2015.png)
     
-    ![image.png](/images/verilog/image 16.png)
+    ![image.png](/images/verilog/image%2016.png)
     
     - 다른 방법
         
@@ -332,7 +332,7 @@ tag: Verilog
         
 - **8비트 가감산기**
     
-    ![image.png](/images/verilog/image 17.png)
+    ![image.png](/images/verilog/image%2017.png)
     
     ```verilog
     module test_AdderSubstractor (
@@ -400,11 +400,11 @@ tag: Verilog
     endmodule
     ```
     
-    ![image.png](/images/verilog/image 18.png)
+    ![image.png](/images/verilog/image%2018.png)
     
 - **8bit 레지스터**
     
-    ![image.png](/images/verilog/image 19.png)
+    ![image.png](/images/verilog/image%2019.png)
     
     ```verilog
     module test_8BitRegister(
@@ -427,7 +427,7 @@ tag: Verilog
     endmodule
     ```
     
-    ![image.png](96d05a99-9e4c-4ba2-91e7-fcff2be046c7.png)
+    ![image.png](/images/verilog/96d05a99-9e4c-4ba2-91e7-fcff2be046c7.png)
     
 - **자동 물주기 시스템**
     
@@ -486,26 +486,26 @@ tag: Verilog
     endmodule
     ```
     
-    ![image.png](/images/verilog/image 20.png)
+    ![image.png](/images/verilog/image%2020.png)
     
 - **심화문제1 : 지하철 속도 제어장치**
     
-    ![image.png](/images/verilog/image 21.png)
+    ![image.png](/images/verilog/image%2021.png)
     
-    ![image.png](/images/verilog/image 22.png)
+    ![image.png](/images/verilog/image%2022.png)
     
     최고속도 120km/h → 7비트 필요. . 지만 7자리는 애매하니 8자리로 진행함
     
     - **생각들**
         - 가능한 스테이터스
             
-            ![실선 속도 90 넘는 경우, 점선 속도 90 안 넘는 경우](/images/verilog/image 23.png)
+            ![실선 속도 90 넘는 경우, 점선 속도 90 안 넘는 경우](/images/verilog/image%2023.png)
             
             실선 속도 90 넘는 경우, 점선 속도 90 안 넘는 경우
             
         - **k-map**
             
-            ![image.png](8fa16e56-215f-4fd2-9350-fd048b4c048f.png)
+            ![image.png](/images/verilog/8fa16e56-215f-4fd2-9350-fd048b4c048f.png)
             
         - **정리**
             
@@ -656,7 +656,7 @@ tag: Verilog
             
 - **심화문제2 : 비밀번호 잠금 해제 장치**
     
-    ![image.png](/images/verilog/image 24.png)
+    ![image.png](/images/verilog/image%2024.png)
     
     - **생각들**
         
@@ -755,11 +755,11 @@ tag: Verilog
     - 결과
         
         
-        ![blocking 적용시](/images/verilog/image 25.png)
+        ![blocking 적용시](/images/verilog/image%2025.png)
         
         blocking 적용시
         
-        ![blocking 미 적용시](/images/verilog/image 26.png)
+        ![blocking 미 적용시](/images/verilog/image%2026.png)
         
         blocking 미 적용시
 
